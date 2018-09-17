@@ -5,7 +5,13 @@ PREFERRED_PROVIDER_virtual/kernel = "linux-fulan-cuberevo"
 #KERNEL_FILE = "uImage"
 #ROOTFS_FILE = "usb_update.img"
 
+AUDIOELF = "audio_7100.elf"
+VIDEOELF = "video_7109.elf"
+
 SOC_FAMILY = "sti7109"
+
+DVB1FIRMWARE = "dvb-fe-cx24116.fw"
+DVB2FIRMWARE = "dvb-fe-stv6306.fw"
 
 MACHINE_FEATURES += "cuberevo"
 
